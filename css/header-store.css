@@ -1,0 +1,46 @@
+.header-store {
+    overflow: hidden;
+    color: #ffffff;
+    margin-bottom: 110px;
+    padding: 60px;
+}
+
+.header-store > .title {
+    color: inherit;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    cursor: pointer;
+}
+
+.header-store > .navigation{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    float: right;
+
+}
+
+.header-store [type="search"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit;
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    width: 358px;
+    margin-right: 65px;
+}
+
+.header-store .action {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 60px;
+    
+}
+
+.header-store .action.-last {
+    margin-right: 0;
+}
+
