@@ -9,3 +9,9 @@
 É uma linguagem de estilo e tem as seguintes responsabilidades:
 
 - Visual
+
+# comandos CSS
+$:hover = Esse comando junto com a class do botão troca a cor quando o cursor passa em cima.
+$ display: inline = O elemento se comporta como um elemento em linha, esse comando não permite
+colocar altura (height) e nem largura (width) no elemento que também ganha o comportamento de 
+palavras. 
