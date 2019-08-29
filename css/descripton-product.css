@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.descripton-product>.item.-heart :active {
+.descripton-product>.item.-heart :hover {
     transform: scale(1.2);
 }
 
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.descripton-product>.item.-star :active {
+.descripton-product>.item.-star :hover {
     transform: scale(1.2);
 }
 
