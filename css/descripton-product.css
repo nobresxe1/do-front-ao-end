@@ -23,17 +23,17 @@
     cursor: pointer;
 }
 
-.descripton-product>.item.-heart :hover {
+.descripton-product .icon:hover {
+    transition: transform 200ml linear;
+}
+
+.descripton-product .icon:hover {
     transform: scale(1.2);
 }
 
 .descripton-product>.item.-star {
     margin-bottom: 10px;
     cursor: pointer;
-}
-
-.descripton-product>.item.-star :hover {
-    transform: scale(1.2);
 }
 
 .descripton-product>.item.-star+.item {
