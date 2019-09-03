@@ -1,4 +1,4 @@
-.container-store {
+    .container-store {
     box-sizing: border-box;
     background-color: #e24647;
     position: absolute;
@@ -26,3 +26,14 @@
         margin-right: auto;
     }
 }
+
+@media(max-width: 955px) {
+    .container-store {
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 375px) {
+    .container-store {
+        padding-right: 16px;
+    }
