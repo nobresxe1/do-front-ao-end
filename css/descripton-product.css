@@ -69,6 +69,15 @@
         text-decoration: none;
     }
     
+    .descripton-product>.item.-star {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .descripton-product>.item.-number {
+        padding-top: 4px;
+    }
+    
     @media(max-width: 1310px) {
         .descripton-product {
             width: 50%;

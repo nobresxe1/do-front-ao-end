@@ -24,3 +24,12 @@
         margin-bottom: 30px;
     }
 }
+
+@media(max-width:600px) {
+    .photo-product {
+        height: auto;
+    }
+    .photo-product>.photo {
+        width: 100%;
+    }
+}
