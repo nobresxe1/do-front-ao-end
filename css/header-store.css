@@ -33,6 +33,10 @@
         vertical-align: bottom;
     }
     
+    .header-store [type="search"]::placeholder {
+        color: inherit;
+    }
+    
     .header-store .action {
         display: inline-block;
         color: inherit;
@@ -76,6 +80,9 @@
     }
     
     @media(max-width: 960px) {
+        .header-store {
+            margin-bottom: 50px;
+        }
         .header-store [type="search"] {
             display: none;
         }
