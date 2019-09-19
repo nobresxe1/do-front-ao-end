@@ -23,10 +23,6 @@
         cursor: pointer;
     }
     
-    .descripton-product>.item.-active {
-        background-color: #fff;
-    }
-    
     .descripton-product .icon {
         transition: transform 150ms linear;
     }
@@ -60,6 +56,14 @@
     
     .descripton-product .star {
         display: inline-block;
+    }
+    
+    .descripton-product .star.-active>.icon {
+        display: none;
+    }
+    
+    .descripton-product .star.-active>.-active {
+        display: block;
     }
     
     .descripton-product>.item.-info {
