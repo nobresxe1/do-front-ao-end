@@ -21,6 +21,7 @@
         left: -47px;
         top: 4px;
         cursor: pointer;
+        display: inline-block;
     }
     
     .descripton-product .icon {
@@ -41,6 +42,11 @@
     
     .descripton-product>.item.-active .icon.-active {
         display: block;
+    }
+    
+    .descripton-product>.item.-heart {
+        left: auto;
+        transform: none;
     }
     
     .descripton-product>.item.-star {
@@ -118,5 +124,11 @@
         .descripton-product {
             width: 90%;
             min-width: auto;
+        }
+    }
+    
+    @media(max-width:500px) {
+        .descripton-product>.item.-heart {
+            position: relative;
         }
     }
