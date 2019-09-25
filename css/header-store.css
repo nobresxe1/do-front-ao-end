@@ -87,8 +87,12 @@
             position: absolute;
             top: 0;
             left: 0;
+            transform: translateX(-88%);
             background-color: rgb(255, 255, 255);
             color: rgb(95, 87, 87);
+        }
+        .header-store .-active [type="search"] {
+            transform: translateX(30%);
         }
     }
     
