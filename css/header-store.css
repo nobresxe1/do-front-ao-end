@@ -90,9 +90,12 @@
             transform: translateX(-88%);
             background-color: rgb(255, 255, 255);
             color: rgb(95, 87, 87);
+            transition: transform 300ms linear;
         }
-        .header-store .-active [type="search"] {
-            transform: translateX(30%);
+        .header-store .-active[type="search"] {
+            transform: translateX(0);
+            border-radius: 10px;
+            margin: 2px 0 0 2px;
         }
     }
     
