@@ -20,23 +20,6 @@
         float: right;
     }
     
-    .header-store [type="search"] {
-        background: transparent;
-        border: none;
-        border-bottom: 1px solid #fff;
-        color: inherit;
-        font-family: Arial, "Roboto", sans-serif;
-        font-size: 20px;
-        padding: 8px;
-        width: 358px;
-        margin-right: 65px;
-        vertical-align: bottom;
-    }
-    
-    .header-store [type="search"]::placeholder {
-        color: inherit;
-    }
-    
     .header-store .action {
         display: inline-block;
         color: inherit;
@@ -82,20 +65,6 @@
     @media(max-width: 960px) {
         .header-store {
             margin-bottom: 50px;
-        }
-        .header-store [type="search"] {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: translateX(-88%);
-            background-color: rgb(255, 255, 255);
-            color: rgb(95, 87, 87);
-            transition: transform 300ms linear;
-        }
-        .header-store .-active[type="search"] {
-            transform: translateX(0);
-            border-radius: 10px;
-            margin: 2px 0 0 2px;
         }
     }
     
