@@ -1,3 +1,7 @@
+.input-search {
+    display: inline-block;
+}
+
 .input-search>.content {
     background: transparent;
     border: none;
@@ -26,24 +30,25 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translateX(-88%);
+        transform: translateX(calc(-100% + 40px));
         transition: transform 300ms linear;
+    }
+    .input-search.-active {
+        transform: translateX(0);
+        margin: 2px 0 0 2px;
     }
     .input-search>.content {
         background-color: rgb(255, 255, 255);
         color: rgb(95, 87, 87);
         margin-right: 0;
     }
-    .input-search.-active {
-        transform: translateX(0);
-        border-radius: 10px;
-        margin: 2px 0 0 2px;
-    }
     .input-search>.icon {
         background-color: rgb(255, 255, 255);
-        width: 40px;
-        height: 40px;
         float: right;
         display: block;
+        border-radius: 0 10px 10px 0;
+    }
+    .input-search.-active>.icon {
+        border-radius: 10px;
     }
 }
