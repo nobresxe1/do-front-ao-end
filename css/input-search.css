@@ -11,7 +11,7 @@
     font-size: 20px;
     padding: 8px;
     width: 358px;
-    margin-right: 65px;
+    /* margin-right: 65px; */
     vertical-align: bottom;
 }
 
@@ -41,14 +41,18 @@
         background-color: rgb(255, 255, 255);
         color: rgb(95, 87, 87);
         margin-right: 0;
+        border-radius: 8px 0 0 8px;
     }
     .input-search>.icon {
         background-color: rgb(255, 255, 255);
         float: right;
         display: block;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 8px 8px 0;
     }
-    .input-search.-active>.icon {
-        border-radius: 10px;
+}
+
+@media (max-width:405px) {
+    .input-search>.content {
+        width: 260px;
     }
 }
