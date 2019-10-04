@@ -11,8 +11,8 @@
     font-size: 20px;
     padding: 8px;
     width: 358px;
-    /* margin-right: 65px; */
-    vertical-align: bottom;
+    margin-right: 65px;
+    /* vertical-align: bottom; */
 }
 
 .input-search>.content ::placeholder {
@@ -46,8 +46,11 @@
     .input-search>.icon {
         background-color: rgb(255, 255, 255);
         float: right;
-        display: block;
+        display: none;
         border-radius: 0 8px 8px 0;
+    }
+    .input-search>.icon.-active {
+        display: block;
     }
 }
 
