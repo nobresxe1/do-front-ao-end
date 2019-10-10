@@ -75,6 +75,19 @@
         }
     }
     
+    @media(max-width: 442px) {
+        .header-store {
+            padding: 60px 30px 60px 30px;
+        }
+    }
+    
+    @media(max-width: 382px) {
+        .header-store {
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+    }
+    
     @media(max-width: 600px) {
         .header-store .item {
             margin-right: 30px;
@@ -89,12 +102,18 @@
     
     @media(max-width: 375px) {
         .header-store .item {
-            padding-left: 16px;
+            padding-left: 0px;
             margin-right: 8px;
         }
     }
     
-    @media(max-width: 335px) {
+    @media(max-width: 340px) {
+        .header-store .item.-menu {
+            display: block;
+            background-image: url(../img/menu.png);
+            background-repeat: no-repeat;
+            background: #ffff;
+        }
         .header-store .action {
             display: none;
         }
