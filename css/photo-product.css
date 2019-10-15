@@ -7,6 +7,7 @@
     border-bottom-right-radius: 150px;
     margin-right: 157px;
     margin-bottom: 70px;
+    padding-left: 100px;
 }
 
 @media(max-width:1325px) {
