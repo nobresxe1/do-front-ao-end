@@ -42,6 +42,12 @@
         text-decoration: none;
     }
     
+    @media(max-width:1310px) {
+        .wrap-product>.buttons>.button-store.-second {
+            margin-right: 38px;
+        }
+    }
+    
     @media(max-width: 510px) {
         .button-store.-second {
             margin-right: 20px;

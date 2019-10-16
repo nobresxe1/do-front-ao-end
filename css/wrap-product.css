@@ -32,4 +32,8 @@
             text-align: center;
             transform: none;
         }
+        .wrap-product>.buttons>.button-store,
+        .wrap-product>.buttons>.button-store.-second {
+            float: none;
+        }
     }
